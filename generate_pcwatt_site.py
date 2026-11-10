@@ -1146,6 +1146,7 @@ def render_single_review_page(rev):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{rev['title']} | {SITE_NAME}</title>
+    <meta name="google-site-verification" content="pgvlG0f03ZrRZzbgDSXRhr6tsSfseFOhXCN6Yv_j5b8" />
     <meta name="description" content="{rev['summary']}">
     <link rel="canonical" href="{canonical_url}">
     <meta name="robots" content="index, follow">
